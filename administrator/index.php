@@ -47,5 +47,8 @@ JDEBUG ? JProfiler::getInstance('Application')->setStart($startTime, $startMem)-
 // Instantiate the application.
 $app = JFactory::getApplication('administrator');
 
+// TEST
+echo 'test';
+
 // Execute the application.
 $app->execute();
